@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 class AnimalList extends Component {
     render() {
         return (
-            <section className="animals">
+            <section className="animals list">
             {
                 this.props.animals.map(animals =>
                     <div key={animals.id}>
